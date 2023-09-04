@@ -50,7 +50,7 @@ const Order = () => {
       </div>
       <ul className="divide-y divide-stone-200 border-b border-t">
         {cart.map((item) => (
-          <OrderItem key={item.id} item={item} />
+          <OrderItem key={item.pizzaId} item={item} />
         ))}
       </ul>
       <div className="space-y-2 bg-stone-200 px-6 py-5">
